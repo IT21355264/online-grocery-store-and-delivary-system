@@ -1,0 +1,92 @@
+.topnav {
+  overflow: auto;
+}
+.img
+{
+display: inline-block;
+margin-left: auto;
+}
+.img2
+{
+margin-left: auto;
+position: absolute;
+top: 8px;
+right: 16px;
+}
+.user{
+  background-color: transparent;
+  color:blue;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width:120px;  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 00; 
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.s-button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 35px;
+  margin-left: 150px; 
+  height: 15px;
+  
+}
+
+
+.s-button:hover {background-color: black;}
+
+.s2-button {
+  background-color:ash ;
+  border: none;
+  color:black;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  height:30px;
+  width: 8%;
+}
+.s2-button:hover {background-color: green}
+.s2-button{
+    overflow: hidden;
+}
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+footer .social_icon,footer .fmenu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+footer .social_icon li, footer .fmenu li{
+  list-style: none;
+}
+footer .social_icon li a{
+  font-size: 2em;
+  color: black;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .social_icon li a:hover{
+  transform: translate(-10px);
+}
