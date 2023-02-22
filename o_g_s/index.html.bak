@@ -1,0 +1,109 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/style.css">
+<title> item search</title>
+</head>
+<body>
+<table class='table'>
+
+  
+  <tr>
+    <td class='td'>
+		<img class="img" src="img/green-beans.png"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		
+	</td>
+    
+	<td class='td'>
+		<img class="img" src="img/cabage.jpg"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart"></td>
+		
+		<td class='td'>
+		<img class="img" src="img/carrot.jpg"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart"></td></tr>
+		
+		<tr>
+		<td class='td'>
+		<img class="img" src="img/capsicum.png"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		
+		<td class='td'>
+		<img class="img" src="img/pumking.png"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		
+		
+		
+	    <td class='td'>
+		<img class="img" src="img/potato.png"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		</tr>
+		
+		<tr>
+		<td class='td'>
+		<img class="img" src="img/tomatoes.jpg"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		</td>
+		
+		<td class='td'>
+		<img class="img" src="img/beetroot.jpg"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		</td>
+		
+		<td class='td'>
+		<img class="img" src="img/cucumbers.png"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		</td>
+	    </tr>
+		
+		<tr>
+		<td class='td'>
+		<img class="img" src="img/onion.jpg"><br>
+		<span class='item-name'>Item Name</span>
+		<span class="price">Price</span><br>
+		<input type="number" value="1"><br>
+		<input type="button" value="Add to cart">
+		</td>
+		
+  
+  
+  </table>
+  
+  
+    
+  
+
+
+
+
+
+
+</body>
+</html>
