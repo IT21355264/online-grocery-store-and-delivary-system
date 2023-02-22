@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/home page3.css">
+    <link href="http://fonts.cdnfonts.com/css/kara" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/hochagi" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/amoitar" rel="stylesheet">
+    <title>aboutus</title>
+<style>
+  div.a{text-align: center;
+  padding:10px 20px;
+  font-style: italic;
+  
+}
+.container1{
+  background-image: url('img/about.jpeg');
+  opacity: 0.5;
+  height:400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+          <header>
+            <div class="topnav">
+                <div class="img">
+                  <a href="home page.html"> <img src="img/H_goods.jpg" alt="logo" width="100"height="100"> 
+                   </a>
+                </div >
+                
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fa fa-user" style="font-size:25px;color:white"></i>
+             
+                <div class="dropdown-content">
+						  <a href="User_page.php">Customer</a>
+						  <a href="login_form.php">Admin</a>
+                </div>
+              
+            </div>
+              
+              <div class="Search">
+                <input type="text" placeholder="Search.."> 
+               </div>
+             <br>
+             		<a href="home page.html" class="nav-button">Home</a>	 
+                   <a href="#" class="nav-button">Delivery</a>
+                   <a href="contact us page.html" class="nav-button">Contact</a>
+                   <a href="aboutus.html" class="nav-button">About us</a>
+        <hr>
+            <div class="bottomnav">
+              <a href="#" class="nav2-button">Vegetable</a>
+             <a href="#" class="nav2-button">Fruits</a>
+             <a href="#" class="nav2-button">Sea foods</a>
+             <a href="#" class="nav2-button" >Meat & poultry</a>
+             <a href="#" class="nav2-button">Bakery</a>
+             <a href="#" class="nav2-button">Deli chiller</a>
+             <a href="#" class="nav2-button">Liquar</a>
+             <a href="#" class="nav2-button">Clearance</a>
+            </div>
+          
+            <hr>
+            </header>
+
+</div >
+<body>  
+   <div class="container1" >
+    <div class="page-title">Hey Goods</div>
+    <div class="a">
+    <p><b></b>We serve fresh food under our belts for decades. It really makes sense. Here we have served other fresh food delivery service and thought we could definitely do it.
+        our Fresh Fruits , Vegetables grows most of our vegetable line. Our products are safe, pure and fresh. We also partner with several local companies that share the same values.
+        Like us, we are proud to be able to serve our customers with fresh product
+    </b></p></div>
+</div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/about1.jpg" style="width:100%">
+      <div class="container">
+        <h1>Ms.Sayuri  Abeyrathne </h1>
+        <p class="title">CEO </p>
+        <p>"you can't wait for customers to come to you. You have to figure out where they are, go there and drag them back to your store."</p>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/about2.jpg" alt="Hansi wijesinha" style="width:100%">
+      <div class="container">
+        <h1>Ms.Hansi wijesinha</h1>
+        <p class="title">Director</p>
+        <p>"IF YOU CAN'T <br>
+            THINKING ABOUT IT..... <BR>
+           BUY IT"<br>    <br></p>
+        
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/about3.jpg" alt="Hiruni  Siyabalapitiy" style="width:100%">
+      <div class="container">
+        <h1>Ms.Hiruni  Siyabalapitiy</h1>
+        <p class="title">Codinator</p>
+        <p>"Customer service should not just be<br> a department ,it should be the entire company"
+            <br>
+            <br>
+        </p>
+        </div>
+        </div>
+  </div>
+  
+</div>
+<br>
+<br>
+<hr>
+        <footer>		 
+          <ul class="social_icon" display: inline;>
+                  <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                  <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              </ul>
+        <p style="font-style:italic;"> By sinning us you agree to terms of conditions an privacy policy</p>
+            
+        </footer>
+        </div>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        
+  </body>
+</html>
+
+
+
+

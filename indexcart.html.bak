@@ -1,0 +1,134 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/ex.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="styles/C:/Users/Hiruni/Desktop/o_g_s (4)/o_g_s/styles">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<title> item search</title>
+<title> shoppingcart</title>
+</head>
+<body>
+
+
+<div class="topnav">
+<div class="img">
+ <img src="H_goods.jpg" alt="logo" width="150"height="150" <a href="login.html"></a></div >
+      <div class="dropdown">
+  <button class="dropbtn">
+  <i class="fa fa-user" style="font-size:25px;color:white"></i>
+ 
+	  
+  </div>
+ <div class="dropdown-content">
+	  <a href="User_interface.html">Customer</a>
+	  <a href="#"> Marketing Manager</a>
+	  <a href="#"> Technician</a>
+	  <a href="#"> Supplier </a>
+  </div>
+  </div>
+  <div class=" nav continer">
+      <a href="#" class="logo"></a>
+	  <i class='bx bxs-cart' id="cart-icon"></i>
+	  <div class="cart">
+	  
+  </div>
+    <div class="Search">
+	<input type="text" placeholder="Search.." id="txtSearch"> </div>
+	
+	<br>
+	 
+		 <a href="#" class="nav-button">Delivery</a>
+		 <a href="#" class="nav-button">Contact</a>
+		 <a href="#" class="nav-button">About us</a>
+	
+</div>
+<br>
+<div class=" nav continer">
+      <a href="#" class="logo"></a>
+	  <i class='bx bxs-cart' id="cart-icon"></i>
+	  <div class="cart">
+	  <h2 class="class-titlle">Tour cart</h2>
+	  </div>
+	 </div>
+<br>
+ <hr>
+ <div class="bottomnav">
+    <a href="index.php?cat=Vegetable" class="nav2-button">Vegetable</a>
+	 <a href="index.php?cat=Fruits" class="nav2-button">Fruits</a>
+	 <a href="index.php?cat=Sea foods" class="nav2-button">Sea foods</a>
+	 <a href="index.php?cat=Meat" class="nav2-button">Meat & poultry</a>
+	 <a href="index.php?cat=Bakery" class="nav2-button">Bakery</a>
+	 <a href="index.php?cat=Deli chiller" class="nav2-button">Deli chiller</a>
+	 <a href="index.php?cat=Liquar" class="nav2-button">Liquar</a>
+	 <a href="index.php?cat=Clearance" class="nav2-button">Clearance</a>
+  </div>
+
+<hr>
+
+
+<!-- <button class="btn" name="button" type="button">Vegetables</button>
+	<button  class="btn" name="button" type="button">fruits</button>
+	<button  class="btn" name="button" type="button">seafood</button>
+	<button  class="btn" name="button" type="button">Meat & Poultry</button>
+	<button  class="btn" name="button" type="button">Bakery</button>
+	<button  class="btn" name="button" type="button">Deli &chiller</button>
+	<button  class="btn" name="button" type="button">Liquar</button>
+	<button  class="btn" name="button" type="button">clearance</button><br><br> -->
+
+<div class=" nav continer">
+      <a href="#" class="logo"></a>
+	  <i class='bx bxs-cart' id="cart-icon"></i>
+	  <div class="cart">
+	  <h2 class="class-titlle">Your cart</h2>
+	  <div class="cart-content">
+	  <div class="cart-box">
+	     <img src="img/beetroot.jpg" alt="" class="cart-img">
+		 <div class="details-box">
+		 <div class="cart-product-title"></div>
+		 <div class="cart-price">RS23</div>
+		 <input type="number" value="1" class="cart-quantity">
+		 </div>
+		 <i class='bx bxs-trash-alt cart-remove'></i>
+	  </div>
+	  </div>
+	  <div class="total">
+	    <div class="total-title"> Total</div>
+		<div class="total-price">RS0</div>
+	 </div>	
+	 <button type="button" class="btn-buy">Buy Now</button>
+	   <i class='bx bxs-x-circle id="close-cart"></i>
+	<header>
+
+   <section class="shop container">
+     <h2 class="section-title"> shop item</h2>
+	 </section>
+   
+   <section class="shop container">
+      
+	   <div class="shop-content">
+	   <div class="product-box1">
+	    <img class="img" src="img/beetroot.jpg" alt "" class="item=img"> 
+	    <h2 class= "item-title">Beetroot</h2>
+		<span class="price"> RS 80</span>
+		<i class='bx bxs-cart add-cart' ></i>
+		
+	   <div class="product-box2">
+	    <img class="img"  src="img/onion.jpg" alt "" class="item=img"> 
+	    <h2 class= "item-title">onion</h2>
+		<span class="price"> RS 55</span>
+		<i class='bx bxs-cart add-cart' ></i>
+		
+	   <div class="product-box3">
+	    <img class="img"  src="img/wine.jpg" alt "" class="item=img"> 
+	    <h2 class= "item-title">wine</h2>
+		<span class="price"> RS 10,500</span>
+		<i class='bx bxs-cart add-cart' ></i>
+		</div>   
+	  </div>
+	</section>	
+	<script scr="js/cart.js"></script>
+		
+		

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+		<link rel="stylesheet" href="styles/home page3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>cotact us page</title>
+ </head>
+       <style>
+    * {
+        box-sizing: border-box;
+      }
+    
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: black;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #006600;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    </style>
+      
+          <header>
+            <div class="topnav">
+                <div class="img">
+                  <a href="home page.html"> <img src="img/H_goods.jpg" alt="logo" width="100"height="100"> 
+                   </a>
+                </div >
+                
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fa fa-user" style="font-size:25px;color:white"></i>
+             
+                <div class="dropdown-content">
+						  <a href="User_page.php">Customer</a>
+						  <a href="login_form.php">Admin</a>
+                </div>
+              
+            </div>
+              
+              <div class="Search">
+                <input type="text" placeholder="Search.."> 
+               </div>
+             <br>
+             		<a href="home page.html" class="nav-button">Home</a>	 
+                   <a href="#" class="nav-button">Delivery</a>
+                   <a href="contact us page.html" class="nav-button">Contact</a>
+                   <a href="aboutus.html" class="nav-button">About us</a>
+        <hr>
+            <div class="bottomnav">
+              <a href="#" class="nav2-button">Vegetable</a>
+             <a href="#" class="nav2-button">Fruits</a>
+             <a href="#" class="nav2-button">Sea foods</a>
+             <a href="#" class="nav2-button" >Meat & poultry</a>
+             <a href="#" class="nav2-button">Bakery</a>
+             <a href="#" class="nav2-button">Deli chiller</a>
+             <a href="#" class="nav2-button">Liquar</a>
+             <a href="#" class="nav2-button">Clearance</a>
+            </div>
+          
+            <hr>
+            </header>
+
+    <body>
+
+    <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Please get in touch and our expert support team will answer all questions.</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="img/ss.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">FullName</label>
+          <input type="text" id="full name" name="full name" placeholder="Your name..">
+          <label for="fname">E-mail</label>
+          <input type="text"  name="E-mail" placeholder="Your E-mail">
+          <label for="textarea">Message</label>
+          <textarea id="Message" name="Message" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+  <hr>
+
+  <ul class="social_icon" display: inline;>
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+<p style="font-style:italic;"> By sinning us you agree to terms of conditions an privacy policy</p>
+    
+</footer>
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
